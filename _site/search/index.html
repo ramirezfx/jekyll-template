@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<head>
+			
+	
+	
+
+	<!-- Paste Your HEAD-HTML-Code Here -->
+
+	
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.9.2/simple-jekyll-search.min.js" integrity="sha512-gABzh+zgo1Eh5HMdD2IMOjeaQAjl9v/MrA3xbZnMTRR5wC4x3WxurJo6yg5EWj1zfNz0qoXK/rKVP5Are0E4QQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+
+	
+	</head>
+	<body>
+		<!-- Put Code For Header Here
+Code for cycling through the menu-items:
+<ul>
+	
+
+	
+		
+		
+	
+		
+			<li class="page_item page-item-7"><a href="/search/">Search Our Site</a></li>
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+</ul>
+-->
+		    <article>
+
+
+        <div>
+            <div>
+              
+              <!--name this file tags-list.html-->
+
+
+
+
+<span class="cat-links"><a href="/tags/#Page" rel="category tag"><i class="fa-solid fa-tags"></i> Page</a>&nbsp;</span>
+
+
+
+
+            </div>
+            <header>
+                <h1>
+                    Search Our Site
+                </h1>
+            </header>
+
+            <div>
+                <p><!-- Html Elements for Search -->
+<input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus>
+<br>
+<br>
+<ul id="results-container"></ul>
+
+<section>
+    <script type="text/javascript">
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/data/search.liquid',
+            searchResultTemplate: '<div class="search-title"><a href="{url}"><h3> {title}</h3></a><div class="meta">{date} <div class="right"><i class="fas fa-tag"></i> {tags}</div></div><p>{excerpt}</p></div><hr> ',
+            noResultsText: 'No result found',
+            limit: 10,
+            fuzzy: false,
+            exclude: []
+        })
+    </script>
+</section>
+<!--On The Stop type in the absolute URL To search.liquid</p>
+            </div>
+        </div>
+    </article>
+
+		<center>
+
+</center>
+		<!-- Paste Footer HTML-Code here: -->
+        	<!-- Put Your JS-Scripts here: -->
+        	
+    </body>
+</html>
