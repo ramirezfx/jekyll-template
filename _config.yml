@@ -12,6 +12,7 @@ url: # Your complete URL https://your.domain.om
 sitename: # Your Site-Namae
 imglogopath: # Path To Logo-Image
 faviconpath: # Path To Favicon
+cookiealert:
 appletouchiconpath: # Path To Apple-Touch Favicon
 author: # Will be displayed at every post as the post-author
 htmlheadstart:
